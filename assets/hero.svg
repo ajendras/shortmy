@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="ShortMy — Self-hosted URL-shortener SaaS">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04091a"/><stop offset=".55" stop-color="#0a1230"/><stop offset="1" stop-color="#160b2e"/></linearGradient>
+    <radialGradient id="halo" cx="930" cy="190" r="270" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#38bdf8" stop-opacity=".32"/><stop offset=".5" stop-color="#818cf8" stop-opacity=".14"/><stop offset="1" stop-color="#818cf8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="core" cx=".36" cy=".32" r=".8"><stop offset="0" stop-color="#ffffff" stop-opacity=".45"/><stop offset=".35" stop-color="#38bdf8" stop-opacity=".35"/><stop offset="1" stop-color="#160b2e" stop-opacity=".25"/></radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/><stop offset=".33" stop-color="#818cf8"/><stop offset=".66" stop-color="#f472b6"/><stop offset="1" stop-color="#38bdf8"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="grid" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#818cf8" stop-opacity="0"/><stop offset="1" stop-color="#f472b6" stop-opacity=".75"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3.5" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
+    <clipPath id="floor"><rect x="0" y="345" width="1200" height="75"/></clipPath>
+    <clipPath id="ball"><circle cx="930" cy="190" r="112"/></clipPath>
+  </defs>
+  <rect width="1200" height="420" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="22" fill="url(#halo)"/>
+  <g fill="#e0e7ff"><circle cx="80" cy="40" r="1.4"><animate attributeName="opacity" values=".2;1;.2" dur="3s" begin="0s" repeatCount="indefinite"/></circle><circle cx="210" cy="95" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="4s" begin="-1s" repeatCount="indefinite"/></circle><circle cx="420" cy="30" r="1.2"><animate attributeName="opacity" values=".2;1;.2" dur="2.5s" begin="-0.5s" repeatCount="indefinite"/></circle><circle cx="560" cy="80" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="3.6s" begin="-2s" repeatCount="indefinite"/></circle><circle cx="690" cy="40" r="1.5"><animate attributeName="opacity" values=".2;1;.2" dur="4.4s" begin="0s" repeatCount="indefinite"/></circle><circle cx="1120" cy="40" r="1.2"><animate attributeName="opacity" values=".2;1;.2" dur="3.1s" begin="-1s" repeatCount="indefinite"/></circle><circle cx="1160" cy="250" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="2.8s" begin="0s" repeatCount="indefinite"/></circle><circle cx="640" cy="300" r="1.1"><animate attributeName="opacity" values=".2;1;.2" dur="3.9s" begin="-2s" repeatCount="indefinite"/></circle><circle cx="350" cy="140" r="0.9"><animate attributeName="opacity" values=".2;1;.2" dur="5s" begin="-3s" repeatCount="indefinite"/></circle></g>
+  <g clip-path="url(#floor)" stroke="url(#grid)" stroke-width="1.2" fill="none">
+    <g><path d="M0 348H1200M0 355H1200M0 365H1200M0 379H1200M0 398H1200M0 422H1200"/><animateTransform attributeName="transform" type="translate" values="0 0;0 7" dur="1.6s" repeatCount="indefinite"/></g>
+    <path d="M600 345L-600 420M600 345L-300 420M600 345L0 420M600 345L200 420M600 345L400 420M600 345L600 420M600 345L800 420M600 345L1000 420M600 345L1200 420M600 345L1500 420M600 345L1800 420"/>
+  </g>
+  <rect x="0" y="343" width="1200" height="3" fill="#f472b6" opacity=".55" filter="url(#glow)"/>
+  <circle cx="930" cy="190" r="146" fill="#38bdf8" opacity=".13" filter="url(#soft)"/>
+  <circle cx="930" cy="190" r="112" fill="url(#core)"/>
+  <g clip-path="url(#ball)" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity=".75" filter="url(#glow)">
+    <ellipse cx="930" cy="190" rx="112" ry="14"/><ellipse cx="930" cy="152" rx="105" ry="12"/><ellipse cx="930" cy="228" rx="105" ry="12"/><ellipse cx="930" cy="116" rx="82" ry="9"/><ellipse cx="930" cy="264" rx="82" ry="9"/>
+    <ellipse cx="930" cy="190" rx="112" ry="112"><animate attributeName="rx" values="112;0;112" dur="8s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="930" cy="190" rx="80" ry="112"><animate attributeName="rx" values="80;0;80;112;80" keyTimes="0;.25;.5;.75;1" dur="8s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="930" cy="190" rx="0" ry="112"><animate attributeName="rx" values="0;112;0" dur="8s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="930" cy="190" rx="80" ry="112"><animate attributeName="rx" values="80;112;80;0;80" keyTimes="0;.25;.5;.75;1" dur="8s" repeatCount="indefinite"/></ellipse>
+  </g>
+  <circle cx="930" cy="190" r="112" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="1.5"/>
+  <circle cx="890" cy="152" r="30" fill="#fff" opacity=".08"/>
+  <g transform="rotate(-16 930 190)">
+    <ellipse cx="930" cy="190" rx="196" ry="46" fill="none" stroke="#f472b6" stroke-width="1.6" stroke-dasharray="6 7" opacity=".85"><animate attributeName="stroke-dashoffset" values="0;-130" dur="4s" repeatCount="indefinite"/></ellipse>
+    <circle r="7" fill="#f472b6" filter="url(#glow)"><animateMotion dur="7s" repeatCount="indefinite" path="M734 190a196 46 0 1 0 392 0a196 46 0 1 0 -392 0"/></circle>
+    <circle r="4.5" fill="#38bdf8" filter="url(#glow)"><animateMotion dur="7s" begin="-3.5s" repeatCount="indefinite" path="M734 190a196 46 0 1 0 392 0a196 46 0 1 0 -392 0"/></circle>
+  </g>
+  <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="14" fill="#e5e7eb">
+    <g>
+      <rect x="1010" y="64" width="81" height="30" rx="8" fill="#0b1020" fill-opacity=".85" stroke="#38bdf8" stroke-opacity=".7"/>
+      <text x="1025" y="84">/x7Kp2</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="4.2s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="712" y="286" width="73" height="30" rx="8" fill="#0b1020" fill-opacity=".85" stroke="#818cf8" stroke-opacity=".7"/>
+      <text x="727" y="306">301 →</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 7;0 0" dur="4.9s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="1030" y="300" width="73" height="30" rx="8" fill="#0b1020" fill-opacity=".85" stroke="#f472b6" stroke-opacity=".7"/>
+      <text x="1045" y="320">GeoIP</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="5.6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <g font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif">
+    <text x="70" y="96" font-size="17" letter-spacing="6" fill="#38bdf8" font-weight="600">PROJECT SHOWCASE · BY AJENDRA</text>
+    <text x="66" y="180" font-size="84" font-weight="800" fill="url(#name)" filter="url(#glow)">ShortMy</text>
+    <text x="70" y="224" font-size="22" fill="#e5e7eb" font-weight="600">Self-hosted URL-shortener SaaS</text>
+    <text x="70" y="254" font-size="18" fill="#cbd5e1">Short links, deep analytics, real revenue</text>
+    <g>
+      <rect x="70" y="278" width="156" height="32" rx="16" fill="#38bdf8" fill-opacity=".14" stroke="#38bdf8" stroke-opacity=".7"/>
+      <circle cx="90" cy="294" r="5" fill="#38bdf8"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+      <text x="104" y="299" font-size="15" font-weight="600" fill="#f8fafc">shortmy.site</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="418" rx="21" fill="none" stroke="#818cf8" stroke-opacity=".35"/>
+</svg>
